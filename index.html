@@ -1,37 +1,39 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DOM Events</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Dom doma dom dom events</h1>
     <!-- option 1 for event handler -->
     <button onclick="console.log(7)">Click Me</button>
     <button onclick="console.log(63)">Another Me</button>
     <button onclick="console.log('i am clicked')">Third click</button>
-    <input type="text" name="" id="">
-    <br>
-    <br>
+    <input type="text" name="" id="" />
+    <br />
+    <br />
 
     <!-- option 2 for event handler -->
-     <button onclick="makeDark()">Make Dark</button>
-     <button onclick="makeLight()">Make Light</button>
+    <button onclick="makeDark()">Make Dark</button>
+    <button onclick="makeLight()">Make Light</button>
+    <br />
+    <br />
 
-     <!-- option 3 for event handler -->
-      <button id="btn-make-blue">Make Blue</button>
-      <button id="btn-make-purple">Make Purple</button>
-     <script>
-      //option 4
-      const btnMakePurple = document.getElementById('btn-make-purple');
-      btnMakePurple.onclick = makePurple;
-
-      function makePurple(){
-        document.body.style.backgroundColor='purple';
-        document.body.style.color='white';
-      }
-     </script>
+    <!-- option 3 for event handler -->
+    <button id="btn-make-blue">Make Blue</button>
+    <button id="btn-make-purple">Make Purple</button>
+    <br />
+    <br />
+    <!-- option 4 -->
+    <button id="btn-make-red">Make Red</button>
+    <button id="btn-make-gold">Make Gold</button>
+    <br />
+    <br />
+    <!-- option 5 arrow funtion -->
+    <button id="btn-light-green">Make Light Green</button>
+    <script></script>
     <script src="js/events.js"></script>
-</body>
+  </body>
 </html>
